@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="payment.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stylez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="whole_payment">
+        <div class="first">
+            <h class="checkout">Check Out</h><br>
+            <div class="billing_address_head">
+                <H3 class="billing">1.Billing address</H3><br><br>
+                <i class="fa-regular fa-circle-check fa-2x Check" style="color: #63E6BE;"></i>
+                <i class="fa-solid fa-circle-plus fa-2x add" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="input_values">
+                <input type="text" name="name" class="name_box1" placeholder=" Name"><br><br>
+                <input type="text" name="city" class="name_box1" placeholder=" Street Name"><br><br>
+                <input type="text" name="District" class="name_box1" placeholder=" City "><br><br>
+                <input type="text" name="state" class="name_box1" placeholder=" District"><br><br>
+                <input type="number" name="mobile" class="name_box1" placeholder="Pincode"><br><br>
+                <input type="number" name="mobile" class="name_box1" placeholder="Mobile number"><br>
+            </div>
+            <br>
+            <button class="save_address">
+                Save the address
+            </button><br><br>
+            <div class="Select_payment_heading">
+                <h3 class="payment_heading">2.Select the payment</h3>
+                <i class="fa-regular fa-circle-check fa-2x Check1" style="color: #63E6BE;"></i>
+            </div>
+
+            <div class="payment_opt">
+                <button class="payment">Upi Payment</button><br><br>
+                <button class="payment">Debit/credit Payment</button><br><br>
+                <button class="payment">Net banking</button><br><br>
+                <H3 class="payment1">Select a Payment</H3>
+            </div>
+            <br> <br><button class="save_payment">Save the payment
+            </button>
+            <br><br><br>
+          <a href="last.html"><button class="Conform_order" >Continue</button></a>  
+        </div>
+
+        <div class="second">
+            <div class="summary_list">
+                <h1 class="summary"><b>Summary</b></h1>
+                <hr width="300px" class="line"><br>
+                <p class="bill" id="no_items">Total items(1) : <b class="price1">Rs.999</b></p><br>
+                <p class="bill" id="delivery">Delivery charges : <b class="price1">Rs.45</b> </p><br>
+                <p class="bill" id="Offers">Offers : <b class="price2">-45</b>  </p><br>
+                <hr width="300px" class="second_line"><br>
+                <h1><b class="Total" id="total">Total = <b class="price3">Rs.999</b> </b></h1>
+            </div>
+        </div>
+    </div>
+    <script src="payment.css"></script>
+</body>
+
+</html>

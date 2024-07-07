@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    text-decoration: none;
+
+    scroll-behavior: smooth;
+    
+}
+body{
+    height:0px;
+}
+a{
+    color: black;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    position: relative;
+    position: fixed;
+    gap: 25px;
+    left: 55%;
+    top: 50px;
+    font-size: 25px;
+    z-index: 2;
+    
+}
+li a:hover{
+    color: rgb(33, 4, 252);
+    text-decoration-line: underline;
+    transition-duration: 0.2s;
+}
+.fa-solid.fa-magnifying-glass.fa-2x{
+    position: fixed;
+    position: relative;
+    margin-left: 90%;
+    bottom: 0px;    
+}
+.icon_container{
+    position: relative;
+    bottom: 0px;
+    justify-content: space-between;
+}
+.logo{
+ font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.shirt_img{
+    width: 350px;
+    height: 400px;
+
+    border-radius: 10px;
+    
+    
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 35px;
+}
+
+.first_heading{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product_name{
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: light;
+    font-size: 50px;
+}
+.price{
+    font-style: bold;
+    font-size: 30px; 
+    color: green;
+}
+.org_price{
+    font-weight: 100;
+    font-style: light;
+    font-size: 30px;
+    text-decoration: line-through;
+    position: relative;
+    left: 25px;
+    color: red;
+}
+
+.pricess{
+    display: flex;
+}
+.buy_a{
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: light;
+    font-size: 35px;
+    color: white;
+}
+.buy_button {
+    position: relative;
+    width: 400px;
+    height: 55px;
+    border: inherit;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.buy_button:hover{
+    background-color: rgba(8, 59, 8, 0.961);
+}
+
+.Buy_s{
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: light;
+    font-size: 35px;
+    color: rgb(14, 0, 0);
+}
+.Buy_s:hover{
+    color: rgb(13, 0, 0);
+}
+.atc_button{
+    width: 400px;
+    height: 55px;
+    color: rgb(19, 1, 1);
+    outline: black;
+    background-color: rgb(250, 249, 249);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.buttons{
+    position: relative;
+    top: 15px;
+}
+
+.Size{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.S{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+
+}
+.Quantity{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+}
+.quality_adding_btn{
+    height: 70px;
+    width: 220px;
+    background-color: rgb(252, 248, 248);
+    color: rgb(8, 0, 0);
+    display: flex;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(67, 64, 64, 0.856);
+    position: relative;
+    top: 20px;
+}
+.quality_adding_btn span.num{
+    font-weight: 450;
+    border-right: 2px solid rgba(67, 64, 64, 0.856);
+    border-left: 2px  solid rgba(67, 64, 64, 0.856);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.s_logos{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 30px;
+}
+.size22{
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+}
+
+.slim{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+.slim_txt{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+   
+
+}
+.style{
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 40px;
+}
+
+.style_word{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 15px;
+    position: relative;
+    
+}
+.about{
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 40px;
+}
+.about_word{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 15px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center_heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.card_img{
+    border-radius: 25px;
+    margin-top: 45px;
+
+}
+
+.card_words{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 25px;
+
+}
+.card_price{
+    font-family: "Josefin Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: bold;
+
+
+}
+.world{
+    color: white;
+}
+.buy_btn{
+    font-family: "Josefin Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: bold;
+     width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: inherit;
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+
+.cards{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}

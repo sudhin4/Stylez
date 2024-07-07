@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    transition-duration: 0.1ms;
+}
+
+.checkout {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 40px;
+
+}
+
+.billing_address_head {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.billing {
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+
+}
+
+.Check {
+    position: relative;
+    top: 7px;
+    left: 10px;
+    visibility: hidden;
+}
+
+.add {
+    position: relative;
+    top: 7px;
+    left: 360px;
+    cursor: pointer;
+}
+
+.input_values {
+    width: 710px;
+    height: 345px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    position: relative;
+}
+
+.name_box1 {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 20px;
+    width: 346px;
+    height: 35px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    row-gap: 20px;
+    grid-row: 20px;
+    border-radius: 05px;
+    border: inherit;
+    border-width: 1px solid black;
+
+}
+
+.save_address {
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 26px;
+    width: 710px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(14, 0, 0);
+    background-color: #d9d9d9;
+    cursor: pointer;
+    border: unset;
+    border-color: 1px solid black;
+}
+
+.save_address:hover {
+    color: white;
+    background-color: rgb(2, 2, 2);
+    transition-duration: 0.5s;
+}
+
+.Select_payment_heading {
+    display: flex;
+}
+
+.payment_heading {
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 700px;
+
+    border-radius: 5px;
+}
+
+.payment_opt {
+    width: 710px;
+    height: 205px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    position: relative;
+  
+}
+
+.payment {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 30px;
+    cursor: pointer;
+    border: unset;
+    background-color:#d9d9d9 ;
+}
+.payment:hover{
+    text-decoration: underline;
+} 
+
+.payment1 {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    background-color:#d9d9d9 ;
+}
+
+.save_payment {
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 26px;
+    width: 710px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(14, 0, 0);
+    background-color: #d9d9d9;
+    cursor: pointer;
+    border: unset;
+    border-color: 1px solid black;
+}
+
+.save_payment:hover {
+    color: white;
+    background-color: rgb(2, 2, 2);
+    transition-duration: 0.5s;
+}
+
+.Check1 {
+    position: relative;
+    top: 10px;
+    right: 350px;
+    visibility: hidden;
+}
+
+.whole_payment {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary {
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_list {
+    background-color: #d9d9d9;
+    color: rgb(0, 0, 0);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+.bill{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+
+.Total{
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-style: light;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+.second{
+    
+    position: relative;
+    top: 50px;
+}
+
+.Conform_order{
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 26px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(14, 0, 0);
+    background-color: #d9d9d9;
+    cursor: pointer;
+    border: unset;
+    border-color: 1px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+}
+
+.Conform_order:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+}
+.price1{
+    color: green;
+}
+.price2{
+    color: red;
+
+}
+.price3{
+    color: green;
+    font-size: 36px;
+}

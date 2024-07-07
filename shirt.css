@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    text-decoration: none;
+
+    scroll-behavior: smooth;
+    
+}
+body{
+    height:0px;
+}
+a{
+    color: black;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    position: relative;
+    position: fixed;
+    gap: 25px;
+    left: 55%;
+    top: 50px;
+    font-size: 25px;
+    z-index: 2;
+    
+}
+li a:hover{
+    color: rgb(33, 4, 252);
+    text-decoration-line: underline;
+    transition-duration: 0.2s;
+}
+.fa-solid.fa-magnifying-glass.fa-2x{
+    position: fixed;
+    position: relative;
+    margin-left: 90%;
+    bottom: 0px;    
+}
+.icon_container{
+    position: relative;
+    bottom: 20px;
+    justify-content: space-between;
+}
+.logo{
+ font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+.marquee_line{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 24px;
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+    background-color: black;
+}
+.shirts_tag{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    top: 20px;
+}
+
+.shirt_img{
+     width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-size: fill; 
+   
+}
+.offer-card{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+   padding: 2px;
+   bottom: 220px;
+   left: 12.8rem;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(11, 0, 0);
+    background-color: rgba(217, 217, 217, 1);
+}
+.desc_word{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 24px;
+    font-size: 25px;
+    font-style: bold;
+    position: relative;
+    left: 90px;
+}
+.disc_price{
+    font-style: bold;
+    font-size: 30px; 
+    color: green;
+}
+.actual_price{
+    font-weight: 100;
+    font-style: light;
+    font-size: 20px;
+    text-decoration: line-through;
+    position: relative;
+    top: 4px;
+    color: red;
+}
+.price_details{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 150px;
+}
+.buy{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+}
+.buy_btn{
+    all: unset;
+    background-color: black;
+    width:150px;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    left: 85px;
+    transition: 2s;
+}
+
+#icon{
+    position: relative;
+    top: 5px;
+    left: 100px;
+}
+
+.whole_card1{
+    position: relative;
+    top: 60px;
+    right: 40px;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+}
+.card3{
+    display: flex;
+    gap: 35px;
+    position: relative;
+    left: 15px;
+    top: 140px;
+}
+.last-img{
+    background-color: black;
+    color: white;
+    width: 1440px;
+    height: 584px;
+}
+.last-logo{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+    position: relative;
+}
+
+.last-product{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 36px;
+    position: relative;
+    margin-top: 30px;
+    left: 90px;
+
+}
+#Shirts{
+    color: white;
+}
+#pants{
+    color: white;
+}
+#T-shirts{
+    color: white;
+}
+#shoes{
+    color: white;
+}
+#watches{
+    color: white;
+}
+.product-list{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 5px;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    top: 70px;
+    right: 4%;
+
+}
+
+.last-aboutus{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 36px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+
+}
+
+.about-list{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 5px;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    top: 80px;
+    right: 9%;
+}
+#product-last{
+    display: flex;
+}
+
+.sm{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 36px; 
+    position: relative;
+    left: 70%;
+    bottom: 180px;
+}
+
+.socialmedia-link{
+    list-style: none;
+    line-height: 40px;
+   
+}
+.x{
+    color: white;
+    position: relative;
+    left: 5px;
+  
+}
+
+.insta{
+    color: white;
+    position: relative;
+    left: 5px;
+}
+.linkedin{
+    color: white;
+    position: relative;
+    left: 5px;
+}
+
+.socialmedia-link{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 5px;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    left: 70%;
+    bottom: 180px;
+}
+.contact{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 36px; 
+}
+.mobileno{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 28px
+}
+.mailto{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 28px;
+
+}
+.mailto{
+    color: white;
+}
+.contact-line{
+    line-height: 40px;
+}
+.privacy{
+    color: white;
+}
+.terms{
+    color: white;
+}
+.copywrite{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-size: 20px;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 45%;
+}
+.last-img{
+    position: relative;
+    top: 400px;
+}
+
+
+
+
